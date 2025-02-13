@@ -1,0 +1,28 @@
+/* ANCHOR ROOT VARIABLES */
+
+:root {
+  --blood-red: (#dc3545);
+}
+
+/* ANCHOR ELEMENTS */
+
+/* ANCHOR CLASSES */
+
+.header-link-buttons {
+  background-color: transparent;
+  border: transparent;
+  color: red
+}
+
+.header-portfolio-select {
+  background-color: transparent;
+  border-color: transparent;
+  color: danger;
+}
+
+.hero-section {
+  margin-right: 5rem;
+}
+
+
+@media screen AND (max-width: 767.98px) {}
