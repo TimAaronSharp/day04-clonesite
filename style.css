@@ -27,7 +27,6 @@
 
 .hero-slide {
   bottom: 230px;
-  padding: 20px;
   position: absolute;
 }
 
@@ -126,20 +125,30 @@
   border-radius: 15%;
 }
 
-.shark-border {
+/* .shark-border {
   border: 2px solid black;
-}
+} */
 
 .top-padding {
   padding-top: 50px;
 }
 
+.backg-color {
+  background-color: #212529;
+}
 
+.no-border {
+  border: 0;
+}
 
 /* ANCHOR MEDIA */
 @media screen AND (max-width: 767.98px) {
   .mobile-padding-adjust {
     padding-top: 2rem;
+  }
+
+  .hero-tile-bg {
+    padding: 0;
   }
 
   .hero-tiles-adjust {
