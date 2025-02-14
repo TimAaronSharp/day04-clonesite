@@ -1,7 +1,7 @@
 /* ANCHOR ROOT VARIABLES */
 
 :root {
-  --blood-red: (#dc3545);
+  --blood-red: #dc3545;
 }
 
 /* ANCHOR ELEMENTS */
@@ -10,22 +10,99 @@
 
 .header-link-buttons {
   background-color: transparent;
-  border: transparent;
-  color: red
+  border-color: transparent;
 }
 
-.header-portfolio-select {
-  background-color: transparent;
-  border-color: transparent;
-  color: danger;
+.header-section {
+  margin-right: 5rem;
 }
 
 .hero-section {
   margin-right: 5rem;
 }
 
+.barracuda-man {
+  min-height: 500px;
+}
+
+.hero-slide {
+  bottom: 14.5rem;
+  position: absolute;
+}
+
+.hero-slide-icons {
+  bottom: 2rem;
+}
+
+.flex-dir {
+  flex-direction: column;
+}
+
+.slide-height {
+  min-height: 20dvh;
+}
+
+.hero-text-fs {
+  font-size: 1.5rem;
+}
+
+.slide-icon-size {
+  font-size: 3rem;
+}
+
+.block-display {
+  display: block;
+}
+
+.card-bg {
+  background-color: var(--blood-red);
+}
+
+.slide-width {
+  min-width: 30dvh;
+}
+
+.theme-color {
+  color: var(--blood-red);
+}
+
 .margin-right {
   margin-right: 5rem;
 }
 
+.margin-left {
+  margin-left: 5rem;
+}
+
+.row-width {
+  min-width: 199dvh;
+}
+
+.padding-all {
+  padding: 5rem;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.karantina-light {
+  font-family: "Karantina", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.karantina-regular {
+  font-family: "Karantina", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.karantina-bold {
+  font-family: "Karantina", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ANCHOR MEDIA */
 @media screen AND (max-width: 767.98px) {}

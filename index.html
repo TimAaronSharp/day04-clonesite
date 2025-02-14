@@ -12,56 +12,93 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
   <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
     defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Bad-A Animals</title>
 </head>
 
-<body>
+<body class="debug">
   <!-- NOTE HEADER -->
   <header>
     <section class="container-fluid">
-      <div class="row hero-section bg-dark text-danger py-3">
-        <div class="col-6">
-          <div>
-            <span>Bad-A Animals</span>
-          </div>
+      <div class="row hero-section bg-dark theme-color py-3">
+        <div class="col-12 col-md-6">
+
+          <span>Bad-A Animals</span>
+
         </div>
-        <div class="col-6">
-          <div class="d-flex justify-content-between">
-            <button class="header-link-buttons">Home</button>
-            <button class="header-link-buttons">News</button>
-            <button class="header-link-buttons">About</button>
-            <select name="portfolio" id="format" class="header-portfolio-select text-danger">
+        <div class="col-12 col-md-6">
+          <div class="d-flex justify-content-end header-link-buttons">
+            <span class="header-link-buttons px-5">Home</span>
+            <span class="header-link-buttons px-5">News</span>
+            <span class="header-link-buttons px-5">About</span>
+            <select name="portfolio" id="format" class=" header-link-buttons theme-color">
               <option value="wallpapers" class="bg-dark">Wallpapers</option>
               <option value="sketch" class="bg-dark">Sketch</option>
               <option value="manga" class="bg-dark">Manga</option>
               <option value="comic" class="bg-dark">Comic</option>
             </select>
-            <button class="header-link-buttons">Commissions</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-fluid bg-dark text-danger text-center">
-      <div class="row align-items-center">
-        <div class="col-6">
-          <h1>Welcome to Bad-A Animals</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus porro fugiat ratione quos,
-            repellendus maiores consequatur quisquam quis culpa! Est!</p>
-        </div>
-        <div class="col-6">
-          <div class="">
-            <img src="images/barracuda-man-transparent.png" alt="barracuda-man" class="img-fluid">
+            <span class="header-link-buttons px-5">Commissions</span>
           </div>
         </div>
       </div>
     </section>
   </header>
-
   <!-- NOTE MAIN -->
   <main>
+    <section class="container-fluid theme-color text-center">
+      <div class="row align-items-center bg-dark margin-right">
+        <div class="col-12 col-md-6">
+          <h1>Welcome to Bad-A Animals</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus porro fugiat ratione quos,
+            repellendus maiores consequatur quisquam quis culpa! Est!</p>
+        </div>
+        <div class="col-12 col-md-6">
+          <div>
+            <img src="images/barracuda-man-transparent.png" alt="barracuda man" class="img-fluid barracuda-man">
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="container-fluid theme-color">
+      <div class="row row-width align-items-center justify-content-center m-0 py-3 px-1 hero-slide">
+        <div class="col-12 col-md-2 margin-left slide-height">
+          <div class="card slide-height">
+            <div class="justify-content-center align-items-center card-body card-bg text-dark text-center">
+              <span class="mdi mdi-sword-cross slide-icon-size"></span>
+              <p class="card-title hero-text-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 margin-left slide-height">
+          <div class="card slide-height">
+            <div class="justify-content-center align-items-center card-body card-bg text-dark text-center">
+              <span class="mdi mdi-flash slide-icon-size"></span>
+              <p class="card-title hero-text-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 margin-left slide-height">
+          <div class="card slide-height">
+            <div class="justify-content-center align-items-center card-body card-bg text-dark text-center">
+              <span class="mdi mdi-office-building slide-icon-size"></span>
+              <p class="card-title hero-text-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 margin-left slide-height">
+          <div class="card slide-height">
+            <div class="justify-content-center align-items-center card-body card-bg text-dark text-center">
+              <span class="mdi mdi-shark slide-icon-size"></span>
+              <p class="card-title hero-text-fs">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- NOTE FOOTER -->
