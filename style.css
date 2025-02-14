@@ -126,6 +126,13 @@
   border-radius: 15%;
 }
 
+.shark-border {
+  border: 2px solid black;
+}
+
+.top-padding {
+  padding-top: 50px;
+}
 
 
 
